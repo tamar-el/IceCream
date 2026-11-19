@@ -1,0 +1,29 @@
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.flavors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.limitWarning {
+  color: #d35400;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.orderSummary {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
+  background-color: #fafafa;
+}
